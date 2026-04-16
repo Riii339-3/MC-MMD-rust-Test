@@ -156,7 +156,7 @@ public class ConfigManager {
     }
 
     public static boolean isVREnabled() {
-        return provider != null ? provider.isVREnabled() : false;
+        return provider != null ? provider.isVREnabled() : true;
     }
 
     public static float getVRArmIKStrength() {

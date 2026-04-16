@@ -6,7 +6,7 @@ package com.shiroha.mmdskin.config;
 
 public interface IVRConfig {
 
-    default boolean isVREnabled() { return false; }
+    default boolean isVREnabled() { return true; }
 
     default float getVRArmIKStrength() { return 1.0f; }
 }

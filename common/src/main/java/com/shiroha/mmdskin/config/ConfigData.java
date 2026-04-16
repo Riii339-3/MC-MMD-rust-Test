@@ -61,7 +61,7 @@ public class ConfigData {
 
     public boolean debugHudEnabled = false;
 
-    public boolean vrEnabled = false;
+    public boolean vrEnabled = true;
     public float vrArmIKStrength = 1.0f;
 
     public static ConfigData load(Path configPath) {
